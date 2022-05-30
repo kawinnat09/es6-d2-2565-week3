@@ -1,4 +1,4 @@
-var day = 5
+var day = 7
 switch(day){
     case 0:{
         console.log("Sunday")
