@@ -5,4 +5,4 @@ function mul(x,y,z=500){
 
 }
 //2.Call function
-mul(20,30)
+mul(20,30,50)

@@ -1,6 +1,6 @@
 //Rest Parameter
 //Declaration function
-function show(message,...args){
+function show(message,a,...args){
     return `${message} ${a} ${args[0]+args[1]+args[2]}`
 }
 
