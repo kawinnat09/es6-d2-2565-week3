@@ -4,9 +4,9 @@ function sayHello(){
 }
 
 //Declaration Generis function
-function greeting(callback,name){
-    console.log(callback(),name)
+function greeting(sayHello,name){
+    return `${sayHello()},${name}`
 }
-
 //Call function
-greeting(sayHello,"Mark Zakerberg")
+let message = greeting(sayHello,"Mark Zakerberg")
+console.log(message)
